@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle baccarat-link",
+        "command": "baccarat-link:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "baccarat-link",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "baccarat-link:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
